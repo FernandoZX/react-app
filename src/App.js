@@ -6,6 +6,9 @@ import Title from './Title';
 import TextAreaComponent from './TextAreaComponent';
 import ReferencingComponent from './ReferencingComponent';
 import MountComponent from './MountComponent';
+import UpdateComponentProps from './UpdateComponentProps';
+import ReactMapArrayData from './ReactMapArrayData';
+import HigherOrderComponent from './HigherOrderComponent';
 
 class App extends React.Component {
   constructor() {
@@ -59,6 +62,12 @@ class App extends React.Component {
         <ReferencingComponent />
         <br />
         <MountComponent />
+        <br />
+        <div id="root-second"><UpdateComponentProps /></div>
+        <br/>
+        <ReactMapArrayData />
+        <br />
+        <HigherOrderComponent />
       </div>
     )
   }
